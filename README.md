@@ -54,9 +54,9 @@ The prompt involves multiple rounds of interaction where the model responds to o
 - Prompt 2 : What is its population?
 - Output 2 : 14.42 Cr
 
-### Contextual prompting
+### Contextual prompting - RAG (Retrieval-Augmented Generation) prompting
 
-The model is given a specific context (such as a document or background information) and is asked to perform a task based on that context.
+The  model is given a specific context (such as a document or background information) and is asked to perform a task based on that context.
 
 - Prompt : Based on the following job description, give me the key qualification?
 
@@ -65,9 +65,3 @@ The model is given a specific context (such as a document or background informat
 The user asks the model to generate something directly without much guidance or context.
 
 - Prompt : Write a poem about my wife?
-
-### CoT (Chain of Thought) prompting
-
-The prompt explicitly guides the model to reason through a problem in multiple steps, useful for tasks involving logic or multi-part answers.
-
-- Prompt : Please go through the file for more clear example.
